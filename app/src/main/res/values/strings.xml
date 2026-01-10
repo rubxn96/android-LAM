@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActionAssistant</string>
+    <string name="accessibility_service_description">Allows the app to perform actions on your behalf</string>
+</resources>
