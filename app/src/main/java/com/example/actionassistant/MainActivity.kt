@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         // ===================================================================
         // IMPORTANT: Replace with your actual Gemini API key
         // ===================================================================
-        val apiKey = "AIzaSyCUgCug5q4SWEPj8XnpJ66jmP2DL7HSB5I"
+        val apiKey = ""
 
         if (apiKey.startsWith("YOUR_")) {
             Toast.makeText(this, "Please add your API key in MainActivity.kt", Toast.LENGTH_LONG).show()
