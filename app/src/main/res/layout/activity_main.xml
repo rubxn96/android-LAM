@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center"
-    tools:context=".MainActivity">
+    android:background="#000000">
 
-    <EditText
-        android:id="@+id/goalEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="e.g., 'Open Chrome and search Wikipedia'"
-        android:inputType="text" />
+    <ImageView
+        android:id="@+id/ai_trigger"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:background="@android:drawable/btn_default_small"
+        android:contentDescription="AI Trigger"
+        android:scaleType="centerInside" />
 
-    <Button
-        android:id="@+id/startButton"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Start" />
+        android:layout_below="@id/ai_trigger"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Tap to Command"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 
-</LinearLayout>
+</RelativeLayout>

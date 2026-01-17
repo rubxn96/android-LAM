@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/floating_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:background="@android:drawable/btn_default_small"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:contentDescription="AI Button" />
+
+    <TextView
+        android:id="@+id/status_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:textColor="#FFFFFF"
+        android:text="Ready"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:elevation="10dp" />
+
+</LinearLayout>
