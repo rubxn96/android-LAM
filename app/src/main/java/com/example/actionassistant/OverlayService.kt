@@ -83,7 +83,7 @@ class OverlayService : Service() {
         windowManager.addView(overlayView, params)
 
         // TODO: PASTE YOUR KEY HERE
-        val apiKey = "AIzaSyA8oY4XFrxp6SX4rn9jiQG4DFZrXr7JEOk"
+        val apiKey = ""
 
         generativeModel = GenerativeModel(
             modelName = "gemini-2.5-flash",
